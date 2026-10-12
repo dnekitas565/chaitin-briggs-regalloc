@@ -1,0 +1,15 @@
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/regalloc_core.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/regalloc.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_parser.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_interp.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_cfg.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_ig.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_cost.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_alloc.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_coalesce.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_emit.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_novelty.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test_integration.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/test.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/edit_cache.dir
+C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/CMakeFiles/rebuild_cache.dir

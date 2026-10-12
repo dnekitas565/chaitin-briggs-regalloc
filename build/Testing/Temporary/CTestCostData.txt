@@ -1,0 +1,11 @@
+test_parser 2 0.0141526
+test_interp 2 0.0118852
+test_cfg 2 0.0138312
+test_ig 2 0.0131049
+test_cost 2 0.0136192
+test_alloc 2 0.0140633
+test_coalesce 2 0.0145569
+test_emit 2 0.0155825
+test_novelty 2 0.0141962
+test_integration 2 0.273212
+---

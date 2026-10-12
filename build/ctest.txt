@@ -1,0 +1,11 @@
+ 1/10 Test  #1: test_parser ......................   Passed    0.03 sec
+ 2/10 Test  #2: test_interp ......................   Passed    0.02 sec
+ 3/10 Test  #3: test_cfg .........................   Passed    0.03 sec
+ 4/10 Test  #4: test_ig ..........................   Passed    0.03 sec
+ 5/10 Test  #5: test_cost ........................   Passed    0.03 sec
+ 6/10 Test  #6: test_alloc .......................   Passed    0.03 sec
+ 7/10 Test  #7: test_coalesce ....................   Passed    0.03 sec
+ 8/10 Test  #8: test_emit ........................   Passed    0.03 sec
+ 9/10 Test  #9: test_novelty .....................   Passed    0.03 sec
+10/10 Test #10: test_integration .................   Passed    0.55 sec
+100% tests passed, 0 tests failed out of 10

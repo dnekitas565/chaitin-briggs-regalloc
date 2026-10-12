@@ -1,0 +1,254 @@
+Start testing: Oct 09 13:35 India Standard Time
+----------------------------------------------------------
+1/10 Testing: test_parser
+1/10 Test: test_parser
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_parser.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_parser" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] parsesAllValidSamples
+[ PASS ] sampleBlockCounts
+[ PASS ] errorsSampleReportsLine3Col13
+[ PASS ] undefinedLabelPosition
+[ PASS ] duplicateLabelPosition
+[ PASS ] missingTerminatorPosition
+[ PASS ] unexpectedCharacterPosition
+[ PASS ] badExpressionPosition
+[ PASS ] trailingTokensRejected
+[ PASS ] reservedWordAsRegister
+[ PASS ] fallthroughGetsJump
+[ PASS ] unreachableBlocksDropped
+[ PASS ] moveFlaggedAndNegativeConst
+[ PASS ] spillReloadSyntaxParses
+[ PASS ] commentsAndBlankLinesIgnored
+15/15 tests passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_parser" end time: Oct 09 13:35 India Standard Time
+"test_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: test_interp
+2/10 Test: test_interp
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_interp.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_interp" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] straightLineOutput
+[ PASS ] branchyOutputAndMemory
+[ PASS ] highPressureLoopOutput
+[ PASS ] profileCountsMatchHandCount
+[ PASS ] loopSplittableOutput
+[ PASS ] moveChainOutput
+[ PASS ] divisionByZeroIsRuntimeError
+[ PASS ] stepLimitStopsInfiniteLoop
+[ PASS ] spillReloadCounted
+[ PASS ] profileDemoRuns
+10/10 tests passed
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_interp" end time: Oct 09 13:35 India Standard Time
+"test_interp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: test_cfg
+3/10 Test: test_cfg
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_cfg.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_cfg" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] rpoStartsAtEntryAndCoversAllBlocks
+[ PASS ] diamondDominators
+[ PASS ] diamondHasNoLoopDepth
+[ PASS ] simpleLoopBackEdgeAndDepth
+[ PASS ] nestedLoopDepthIsTwo
+[ PASS ] livenessStraightLine
+[ PASS ] livenessDiamond
+[ PASS ] livenessLoopCarriesValues
+[ PASS ] deadDefinitionIsNeverLive
+[ PASS ] useBeforeDefIsWarned
+10/10 tests passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_cfg" end time: Oct 09 13:35 India Standard Time
+"test_cfg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: test_ig
+4/10 Test: test_ig
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_ig.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_ig" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] triangleInterference
+[ PASS ] degreeCounts
+[ PASS ] sequentialChainHasNoInterference
+[ PASS ] interferenceAcrossDiamond
+[ PASS ] moveSourceGetsNoEdgeToDest
+[ PASS ] moveExceptionDoesNotHideRealInterference
+[ PASS ] interferenceIsSymmetric
+[ PASS ] highPressureLoopContainsCliqueLargerThanFour
+[ PASS ] dotOutputIsWellFormed
+9/9 tests passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_ig" end time: Oct 09 13:35 India Standard Time
+"test_ig" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: test_cost
+5/10 Test: test_cost
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_cost.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_cost" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] staticWeightIsTenToTheDepth
+[ PASS ] staticSpillCostsOnLoop
+[ PASS ] profileSpillCostsOnLoop
+[ PASS ] profileGivesNeverExecutedBlockHalfWeight
+[ PASS ] spillCodeReloadsBeforeUseAndSpillsAfterDef
+[ PASS ] spillCodePreservesProgramBehavior
+[ PASS ] spillSlotsAreStable
+7/7 tests passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_cost" end time: Oct 09 13:35 India Standard Time
+"test_cost" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: test_alloc
+6/10 Test: test_alloc
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_alloc.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_alloc" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] kColorableGraphHasNoSpills
+[ PASS ] cliqueOfKPlusOneSpillsExactlyOne
+[ PASS ] optimisticCandidateStillGetsColored
+[ PASS ] cheapestNodeIsTheSpillVictim
+[ PASS ] infiniteCostNodeIsNotChosenWhenAlternativeExists
+[ PASS ] inactiveNodesStayUncoloredAndUnspilled
+[ PASS ] verifyColoringCatchesConflicts
+[ PASS ] allocateStraightLineNeedsNoSpills
+[ PASS ] allocateHighPressureLoopSpillsAndKeepsSemantics
+[ PASS ] everySampleAllocatesForEveryK
+[ PASS ] spillVictimsAreOriginalVirtualRegisters
+[ PASS ] roundCapIsEnforced
+[ PASS ] missingCostModelIsRejected
+13/13 tests passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_alloc" end time: Oct 09 13:35 India Standard Time
+"test_alloc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: test_coalesce
+7/10 Test: test_coalesce
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_coalesce.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_coalesce" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] briggsAllowsKMinusOneSignificantNeighbors
+[ PASS ] briggsRejectsKSignificantNeighbors
+[ PASS ] commonNeighborLosesOneDegreeAfterMerge
+[ PASS ] interferingMovePairIsNeverMerged
+[ PASS ] mergingUnionsAdjacencyAndMoves
+[ PASS ] moveChainSampleLosesMovesAndKeepsOutput
+[ PASS ] coalescingNeverIncreasesSpillsOnMoveChain
+[ PASS ] coalescingPreservesOutputsOnAllSamples
+[ PASS ] noSameRegisterMoveSurvivesInEmittedCode
+[ PASS ] moveChainEmitsNoMovesAtAll
+10/10 tests passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_coalesce" end time: Oct 09 13:35 India Standard Time
+"test_coalesce" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: test_emit
+8/10 Test: test_emit
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_emit.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_emit" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] virtualEmitRoundTrips
+[ PASS ] emittedTextReparsesAndMatchesForEverySampleAndK
+[ PASS ] emittedProgramUsesAtMostKRegisters
+[ PASS ] emittedHeaderDescribesTheAllocation
+[ PASS ] reportMentionsBothModels
+5/5 tests passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_emit" end time: Oct 09 13:35 India Standard Time
+"test_emit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: test_novelty
+9/10 Test: test_novelty
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_novelty.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_novelty" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] staticAndProfileChooseDifferentVictims
+[ PASS ] profileChoiceExecutesFewerSpillAndReloadOps
+[ PASS ] modelsAgreeWhenFrequenciesAgreeWithDepth
+3/3 tests passed
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_novelty" end time: Oct 09 13:35 India Standard Time
+"test_novelty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: test_integration
+10/10 Test: test_integration
+Command: "C:/Users/dneki/OneDrive/Desktop/Compiler Project/build/test_integration.exe"
+Directory: C:/Users/dneki/OneDrive/Desktop/Compiler Project/build
+"test_integration" start time: Oct 09 13:35 India Standard Time
+Output:
+----------------------------------------------------------
+[ PASS ] fullMatrixSamplesKCostCoalesce
+[ PASS ] pipelineStagesAgreeOnLoopSample
+[ PASS ] errorSampleIsRejected
+[ PASS ] cliRunsSampleAndMatchesOutputs
+[ PASS ] cliWritesEmitFileThatReparses
+[ PASS ] cliReportListsBothModels
+[ PASS ] cliDumpsCfgLoopsLivenessAndIg
+[ PASS ] cliReportsParseErrorWithPositionAndFailsExitCode
+[ PASS ] cliRejectsBadArguments
+9/9 tests passed
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"test_integration" end time: Oct 09 13:35 India Standard Time
+"test_integration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 09 13:35 India Standard Time
